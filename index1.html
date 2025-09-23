@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="date-range-container">
+        <div class="date-range-box">
+            <span class="date-range-text">
+                23th September to 23 November
+            </span>
+        </div>
+        <div class="diamond">
+            <span class="diamond-text">61</span>
+        </div>
+    </div>
+
+    <style>
+    .date-range-container {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        margin: 40px auto;
+        justify-content: center;
+    }
+
+    .date-range-box {
+        background: #e9ecef;
+        border: 2px solid #343a40;
+        border-radius: 16px;
+        width: 452px;
+        height: 124px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .date-range-text {
+        font-size: 28px;
+        text-align: center;
+        line-height: 1.25;
+        color: #343a40;
+    }
+
+    .diamond {
+        width: 112px;
+        height: 112px;
+        background: #ffc9c9;
+        border: 2px solid #343a40;
+        transform: rotate(45deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .diamond-text {
+        transform: rotate(-45deg);
+        font-size: 28px;
+        color: #343a40;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    </style>
+</body>
+
+</html>
